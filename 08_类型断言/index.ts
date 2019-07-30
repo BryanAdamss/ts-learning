@@ -2,7 +2,7 @@
 // 断言可理解为假设
 // 语法
 // <类型>值
-// 值 as 类型 tsx中必须使用此语法
+// 值 as 类型  tsx中必须使用此语法
 
 // 当 TypeScript 不确定一个联合类型的变量到底是哪个类型的时候，我们只能访问此联合类型的所有类型里共有的属性或方法
 function getLength(something: string | number): number {

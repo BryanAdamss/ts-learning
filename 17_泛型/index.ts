@@ -1,4 +1,4 @@
-// 泛型（Generics）是指在定义函数、接口或类的时候，不预先指定具体的类型，而在使用的时候再指定类型的一种特性。可理解为一个类型占位符
+// 泛型（Generics）是指在定义函数、接口或类的时候，不预先指定具体的类型，而在使用的时候再指定类型的一种特性。可理解为一个类型占位符(表示类型的变量)
 // createArray，它可以创建一个指定长度的数组，同时将每一项都填充一个默认值
 function createArray(length: number, value: any): Array<any> {
   let result = []
